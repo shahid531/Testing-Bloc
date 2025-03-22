@@ -7,7 +7,7 @@ void main() {
   runApp(const MyApp());
 }
 
-const names = ['Foo', 'Bar', 'Baz'];
+const names = ['Foo', 'Bar', 'Baz',];
 
 extension RandomElement<T> on Iterable<T> {
   T getRandomElement() => elementAt(math.Random().nextInt(length));
